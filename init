@@ -1,0 +1,10 @@
+## run lxde environment
+echo "Hello world"
+uname -a
+### SET ENVIRONMENT
+export LIBGL_ALWAYS_INDIRECT=1
+export DISPLAY=127.0.0.1:0
+export LIBGL_FB=3
+export pulseaudio=127.0.0.1:4713
+dbus-launch lxsession
+echo "LXSESSION KILLED GOODBYE"
